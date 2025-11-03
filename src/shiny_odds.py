@@ -3,11 +3,15 @@ import matplotlib.pyplot as plt
 from scipy.integrate import quad
 import seaborn as sb
 
+
+# for the plot
 plt.rcParams.update({
     'text.usetex':False,
     'font.family':'sans-serif'
 })
 
+
+# have two methods of calculating the integral. Just to double check
 def exp_analytical(mean, a, b):
     rate = 1/mean
 
@@ -18,11 +22,15 @@ def numerical(func,mean, a, b):
 
     return ans
 
+
+# Probability distribution function
 def PDF(x, mean):
     rate = 1/mean
 
     return rate*np.exp(-rate*x)
 
+
+#plot the probability
 def plot(x, func, mean, a, b):
     sb.set_style('darkgrid')
     plt.figure()
@@ -52,8 +60,11 @@ def main():
     # CHANGE ACCORDING TO GAME
     mean = 8192
 
+    # mainly for neatness in the plot. 
     x = np.linspace(0, 50000, 1000000)
 
+
+    #  USER IO
     while True:
         try:
             a = int(input('\nPlease input the lower value: '))
