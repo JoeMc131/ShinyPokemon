@@ -20,10 +20,10 @@ $$ P[a < x < b] = \int_{a}^{b} f(x) dx$$
 # Examples
 
 ## For a bounded interval 
-!(../images/Screenshot 2025-11-03 at 12.08.51.png)
-!(../images/graph_bounded_interval.png)
+![text](/images/Screenshot 2025-11-03 at 12.08.51.png)
+![image](/images/graph_bounded_interval.png)
 
 ## For an unbounded interval
-!(../images/Screenshot 2025-11-03 at 12.09.39.png)
-!(../images/graph_unbounded_interval.png)
+![text](/images/Screenshot 2025-11-03 at 12.09.39.png)
+![image](/images/graph_unbounded_interval.png)
 
