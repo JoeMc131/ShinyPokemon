@@ -17,3 +17,7 @@ given an interavl for $x$, the probability for encountering a shiny in this inte
 
 $$ P[a < x < b] = \int_{a}^{b} f(x) dx$$
 
+# Examples
+
+## For a bounded interval 
+
